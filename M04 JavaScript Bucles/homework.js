@@ -42,8 +42,6 @@ function conection(status) {
 }
 }
 
-
-
 function saludo(idioma) {
    // Retornar un saludo en tres diferentes lenguajes:
    // Si "idioma" es "aleman", devuelve "Guten Tag!".
@@ -201,7 +199,7 @@ function tieneTresDigitos(num) {
    let str = num.toString();
    return (str.length===3);
    }
-   
+
 function doWhile(num) {
    // Implementar una función que aumente el valor recibido en 5 hasta un límite de 8 veces.
    // Retornar el valor final.
